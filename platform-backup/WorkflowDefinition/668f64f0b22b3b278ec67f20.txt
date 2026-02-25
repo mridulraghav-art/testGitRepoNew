@@ -1,0 +1,47 @@
+{
+	"appsUsed":[
+		"asana"
+	],
+	"createdTime":1720673520825,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668f64f0b22b3b278ec67f20",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679264026,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"asana"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"lkK7n-1",
+			"id":"lkK7n",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":17,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

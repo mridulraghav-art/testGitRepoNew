@@ -16,22 +16,29 @@
 	"id":"699ea81e01f37d14e0988c93",
 	"lastModifiedBy":67744,
 	"lcName":"testing",
-	"modifiedTime":1772017754207,
+	"modifiedTime":1772017760050,
 	"name":"testing",
 	"nodes":[
 		{
 			"context":{
-				"appName":"webhooks"
+				"appName":"webhooks",
+				"resourceVersion":867,
+				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_6IJMz-1",
 			"id":"n_AI8Ie",
 			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
 			"subTitle":"Webhook",
-			"title":"Select a trigger event",
+			"title":"New event",
 			"trigger":{
 				"type":"WEBHOOK"
 			},
@@ -74,5 +81,5 @@
 		"enableVariableLogging":true
 	},
 	"standard":false,
-	"version":3
+	"version":4
 }

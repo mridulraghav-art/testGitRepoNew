@@ -25,12 +25,19 @@
 			"skip":false,
 			"toNodeId":"n_Dfgcz",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_Dfgcz",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_fZZLI",
+			"type":"next"
 		}
 	],
 	"id":"699eb0c4153ff2257d6d5d90",
 	"lastModifiedBy":175510,
 	"lcName":"gs121",
-	"modifiedTime":1772009233486,
+	"modifiedTime":1772009330672,
 	"name":"gs121",
 	"nodes":[
 		{
@@ -122,6 +129,29 @@
 			"subTitle":"GrowSurf",
 			"title":"Get participants",
 			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"growsurf",
+				"resourceVersion":2,
+				"connectionId":"699e94b26c33cc20afc336ce",
+				"resourceName":"growsurf_get_referrals_and_invites",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_pEzUB-1",
+			"id":"n_fZZLI",
+			"index":5,
+			"inputs":{
+				"id":"nuaj2f",
+				"desc":true
+			},
+			"skip":false,
+			"subTitle":"GrowSurf",
+			"title":"Get referrals and invites",
+			"type":"ACTION"
 		}
 	],
 	"ownerUserId":175510,
@@ -141,5 +171,5 @@
 	"tags":[
 		
 	],
-	"version":4
+	"version":5
 }

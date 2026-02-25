@@ -1,0 +1,49 @@
+{
+	"createdTime":1710308964827,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"65f13e646be74055e62b39aa",
+	"lastModifiedBy":8,
+	"lcName":"untitled",
+	"modifiedTime":1710325396538,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"servicenow"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"BRbhS-1",
+			"id":"BRbhS",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":8,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

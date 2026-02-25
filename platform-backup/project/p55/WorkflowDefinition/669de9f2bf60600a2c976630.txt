@@ -1,0 +1,52 @@
+{
+	"appsUsed":[
+		"gitlab"
+	],
+	"createdTime":1721625074468,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"669de9f2bf60600a2c976630",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679265623,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gitlab"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GidjB-1",
+			"id":"GidjB",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":302,
+	"projectId":55,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"tags":[
+		"akma",
+		"boat1"
+	],
+	"version":12
+}

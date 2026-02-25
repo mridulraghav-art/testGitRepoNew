@@ -1,0 +1,52 @@
+{
+	"appsUsed":[
+		"bamboohr"
+	],
+	"createdTime":1710661526086,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"65f69f96fd4b9c26a5592ad5",
+	"lastModifiedBy":32,
+	"lcName":"kak c ----->>>> jknkjcnkd",
+	"modifiedTime":1710661544065,
+	"name":"kak c ----->>>> jknkjcnkd",
+	"nodes":[
+		{
+			"context":{
+				"appName":"bamboohr"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"2o51s-1",
+			"id":"2o51s",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":32,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}

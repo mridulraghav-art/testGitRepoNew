@@ -46,6 +46,13 @@
 			"fromNodeId":"n_GcAlG",
 			"priority":0,
 			"skip":false,
+			"toNodeId":"n_T2QIO",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_T2QIO",
+			"priority":0,
+			"skip":false,
 			"toNodeId":"n_R2TxH",
 			"type":"next"
 		},
@@ -60,7 +67,7 @@
 	"id":"699c04c728c37821e2b52794",
 	"lastModifiedBy":195450,
 	"lcName":"test",
-	"modifiedTime":1772022461036,
+	"modifiedTime":1772022522066,
 	"name":"test",
 	"nodes":[
 		{
@@ -96,7 +103,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_YXHIp-1",
 			"id":"n_TquyQ",
@@ -151,7 +158,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_YXHIp-1",
 			"id":"n_XCiQt",
@@ -407,7 +414,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_YXHIp-1",
 			"id":"n_i06bX",
@@ -430,7 +437,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_YXHIp-1",
 			"id":"n_GcAlG",
@@ -444,6 +451,33 @@
 			"skip":false,
 			"subTitle":"Storage by UnifyApps",
 			"title":"Fetch Dependency Tree",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":28,
+				"resourceName":"storage_by_unifyapps_clear_entity_dependency_cache",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_YXHIp-1",
+			"id":"n_T2QIO",
+			"index":6,
+			"inputs":{
+				"entities":{
+					"items":{
+						"objectType":"condition_tree_node",
+						"entityId":"parent-1"
+					},
+					"ua:type":"mappedArray"
+				}
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Clear Entity Dependency Cache",
 			"type":"ACTION"
 		},
 		{
@@ -463,12 +497,11 @@
 			"fallbackMode":"STOP",
 			"groupId":"_YXHIp-1",
 			"id":"n_R2TxH",
-			"index":6,
+			"index":7,
 			"inputs":{
 				"entities":{
 					"items":{
 						"object_type":"{{ n_cCf15.outputs.items[0].entityType }}",
-						"version":"ALL",
 						"objectType":"{{ n_XCiQt.outputs.items[0] }}",
 						"entityId":"{{ n_TquyQ.outputs.id }}"
 					},
@@ -476,7 +509,7 @@
 					"source":"{{ n_XCiQt.outputs.items }}"
 				}
 			},
-			"skip":false,
+			"skip":true,
 			"subTitle":"Storage by UnifyApps",
 			"title":"Clear Entity Dependency Cache",
 			"type":"ACTION"
@@ -489,11 +522,11 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_YXHIp-1",
 			"id":"n_n7lZv",
-			"index":7,
+			"index":8,
 			"inputs":{
 				"object_type":"condition_tree_node",
 				"deployed":false,
@@ -523,5 +556,5 @@
 	"tags":[
 		
 	],
-	"version":39
+	"version":42
 }

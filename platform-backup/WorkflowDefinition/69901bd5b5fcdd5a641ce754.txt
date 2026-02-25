@@ -1,0 +1,89 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1771051989609,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_xPr1l",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_BP1Kb",
+			"type":"next"
+		}
+	],
+	"id":"69901bd5b5fcdd5a641ce754",
+	"lastModifiedBy":195833,
+	"lcName":"test",
+	"modifiedTime":1772009536955,
+	"name":"test",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":877,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_Hrd9D-1",
+			"id":"n_xPr1l",
+			"index":1,
+			"inputs":{
+				"cron":"INTERVAL",
+				"sequential":false,
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"standard_entities",
+				"resourceVersion":9703,
+				"resourceName":"standard_entities_fetch_audit",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_Hrd9D-1",
+			"id":"n_BP1Kb",
+			"index":2,
+			"inputs":{
+				"assetId":"699d975d14d57f19266c4281",
+				"assetClass":"CHANGESET"
+			},
+			"skip":false,
+			"subTitle":"Standard entities by UnifyApps",
+			"title":"Get audit records",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":195833,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":20
+}

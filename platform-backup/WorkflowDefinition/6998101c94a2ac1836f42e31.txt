@@ -4,6 +4,15 @@
 	],
 	"createdTime":1771573270684,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1772010428106,
+		"deployedBy":195886,
+		"deployedDefinitionId":"699ebbba5a38041086755eae",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":5
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_tRzXM",
@@ -37,7 +46,7 @@
 	"id":"6998101c94a2ac1836f42e31",
 	"lastModifiedBy":195886,
 	"lcName":"bill.com",
-	"modifiedTime":1772010423694,
+	"modifiedTime":1772011465751,
 	"name":"bill.com",
 	"nodes":[
 		{
@@ -66,6 +75,22 @@
 			"type":"START"
 		},
 		{
+			"additional":{
+				"visibleOptionalFields":[
+					"root.billLineItems.items.classifications.chartOfAccountId",
+					"root.billLineItems.items.classifications.accountingClassId",
+					"root.billLineItems.items.classifications.departmentId",
+					"root.billLineItems.items.classifications.employeeId",
+					"root.billLineItems.items.classifications.jobId",
+					"root.billLineItems.items.classifications.locationId",
+					"root.billLineItems.items.classifications.itemId",
+					"root.billLineItems.items.classifications.customerId",
+					"root.billLineItems.items.amount",
+					"root.billLineItems.items.quantity",
+					"root.billLineItems.items.price",
+					"root.billLineItems.items.description"
+				]
+			},
 			"context":{
 				"appName":"bill",
 				"resourceVersion":2512,
@@ -79,7 +104,39 @@
 			"groupId":"_wxxHM-1",
 			"id":"n_HJdL6",
 			"index":2,
-			"inputs":{},
+			"inputs":{
+				"dueDate":"2025-11-29",
+				"vendorCredits":{
+					"items":{
+						"amount":0,
+						"id":"vcr0000000000000"
+					},
+					"ua:type":"mappedArray"
+				},
+				"vendorId":"00902QUHKZVLWQN2oqpt",
+				"description":"Shipment",
+				"invoice":{
+					"invoiceNumber":"bill id test 2",
+					"invoiceDate":"2026-02-25"
+				},
+				"billLineItems":{
+					"items":{
+						"description":"Shipment",
+						"classifications":{
+							"chartOfAccountId":"0ca02ZTFTRRGAMVLywwr",
+							"departmentId":"00000000000000000000",
+							"accountingClassId":"00000000000000000000",
+							"employeeId":"00000000000000000000",
+							"jobId":"00000000000000000000",
+							"locationId":"00000000000000000000",
+							"itemId":"00000000000000000000",
+							"customerId":"00000000000000000000"
+						},
+						"amount":17
+					},
+					"ua:type":"mappedArray"
+				}
+			},
 			"skip":false,
 			"subTitle":"Bill",
 			"title":"Create bill",
@@ -176,5 +233,5 @@
 	"tags":[
 		
 	],
-	"version":5
+	"version":6
 }

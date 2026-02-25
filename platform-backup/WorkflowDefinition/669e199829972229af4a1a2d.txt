@@ -1,0 +1,47 @@
+{
+	"appsUsed":[
+		"gmail"
+	],
+	"createdTime":1721637272857,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"669e199829972229af4a1a2d",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679262065,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"gmail"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"gAcJS-1",
+			"id":"gAcJS",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

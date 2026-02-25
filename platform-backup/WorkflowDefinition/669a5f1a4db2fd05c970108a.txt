@@ -1,0 +1,122 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1721392922325,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"fwbCE",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"uzbdx",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"uzbdx",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"XsZRb",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"669a5f1a4db2fd05c970108a",
+	"lastModifiedBy":-1,
+	"lcName":"testfor data",
+	"modifiedTime":1721679264712,
+	"name":"testFor Data",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":46,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"fwbCE-1",
+			"id":"fwbCE",
+			"index":0,
+			"inputs":{
+				"result":{
+					"type":"object",
+					"properties":{
+						"record_count":{
+							"type":"number",
+							"title":"Record Count"
+						}
+					},
+					"additionalProperties":false,
+					"required":[
+						"record_count"
+					]
+				}
+			},
+			"skip":false,
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"storage_by_unifyapps",
+				"resourceVersion":808,
+				"resourceName":"storage_by_unifyapps_count_records",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"fwbCE-1",
+			"id":"uzbdx",
+			"index":0,
+			"inputs":{
+				"object_type":"test_primary_key_unset"
+			},
+			"skip":false,
+			"subTitle":"Storage by UnifyApps",
+			"title":"Count records",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":42,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"fwbCE-1",
+			"id":"XsZRb",
+			"index":0,
+			"inputs":{
+				"result":{
+					"record_count":"{{ uzbdx.outputs.count }}"
+				}
+			},
+			"skip":false,
+			"subTitle":"Callable",
+			"title":"Return data to automation",
+			"type":"STOP"
+		}
+	],
+	"ownerUserId":568,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":7
+}

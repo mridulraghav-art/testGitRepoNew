@@ -1,0 +1,55 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1709794932474,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"65e9666ec1fcbc2dca1fc5fe",
+	"lastModifiedBy":23,
+	"lcName":"untitled",
+	"modifiedTime":1709794954064,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":1,
+				"resourceName":"callables_from_automation"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"BCNJm-1",
+			"id":"BCNJm",
+			"index":0,
+			"inputs":{},
+			"skip":false,
+			"title":"Trigger from automation",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":23,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}

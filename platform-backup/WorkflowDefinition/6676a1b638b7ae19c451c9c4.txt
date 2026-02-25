@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"clickup"
+	],
+	"createdTime":1719050678977,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"6676a1b638b7ae19c451c9c4",
+	"lastModifiedBy":289,
+	"lcName":"untitled",
+	"modifiedTime":1719051547439,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"clickup"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"yriZL-1",
+			"id":"yriZL",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":289,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

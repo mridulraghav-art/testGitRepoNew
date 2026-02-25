@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1772013715183,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_WaR0g",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_k1S15",
+			"type":"next"
+		}
+	],
+	"id":"699ec8935a380410867593ad",
+	"lastModifiedBy":3546,
+	"lcName":"rvre",
+	"modifiedTime":1772013715183,
+	"name":"rvre",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_WaR0g-1",
+			"id":"_WaR0g",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_WaR0g-1",
+			"id":"_k1S15",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":3546,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}

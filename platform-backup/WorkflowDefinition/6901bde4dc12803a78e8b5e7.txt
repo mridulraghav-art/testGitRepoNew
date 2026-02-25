@@ -27,12 +27,19 @@
 			"skip":false,
 			"toNodeId":"n_XOfoJ",
 			"type":"next"
+		},
+		{
+			"fromNodeId":"n_XOfoJ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_PVGmm",
+			"type":"next"
 		}
 	],
 	"id":"6901bde4dc12803a78e8b5e7",
 	"lastModifiedBy":33,
 	"lcName":"test ",
-	"modifiedTime":1772009793751,
+	"modifiedTime":1772010660912,
 	"name":"test ",
 	"nodes":[
 		{
@@ -42,7 +49,7 @@
 				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_zbhad-1",
 			"id":"n_eMS7P",
@@ -76,7 +83,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"_zbhad-1",
 			"id":"n_IVKD4",
@@ -104,9 +111,33 @@
 			"inputs":{
 				"attachment_id":"33586434942482"
 			},
-			"skip":false,
+			"skip":true,
 			"subTitle":"Zendesk",
 			"title":"Download attachment",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"zendesk",
+				"resourceVersion":4793,
+				"connectionId":"673eac5b16a9ea770895fe44",
+				"resourceName":"zendesk_get_article_attachments",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_zbhad-1",
+			"id":"n_PVGmm",
+			"index":4,
+			"inputs":{
+				"article_id":"25993620856210",
+				"per_page":100,
+				"page":1
+			},
+			"skip":false,
+			"subTitle":"Zendesk",
+			"title":"Get article attachments",
 			"type":"ACTION"
 		}
 	],
@@ -127,5 +158,5 @@
 	"tags":[
 		
 	],
-	"version":7
+	"version":8
 }

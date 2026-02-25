@@ -1,0 +1,47 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720676936088,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668f7248b22b3b278ec68084",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679263034,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"YTPmn-1",
+			"id":"YTPmn",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

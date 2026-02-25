@@ -1,0 +1,47 @@
+{
+	"appsUsed":[
+		"google_workspace"
+	],
+	"createdTime":1721637446673,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"669e1a4629972229af4a1a3c",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679266943,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"google_workspace"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"GxKXp-1",
+			"id":"GxKXp",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

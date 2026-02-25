@@ -5,47 +5,44 @@
 	"createdTime":1772018014268,
 	"deleted":false,
 	"edges":[
-		{
-			"fromNodeId":"_ifZCc",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"_mPx5f",
-			"type":"next"
-		}
+		
 	],
 	"id":"699ed95e9f1a866c384ca9ab",
 	"lastModifiedBy":161912,
 	"lcName":"hoi",
-	"modifiedTime":1772018014268,
+	"modifiedTime":1772018023392,
 	"name":"hoi",
 	"nodes":[
 		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":867,
+				"resourceName":"webhooks_default"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_ifZCc-1",
-			"id":"_ifZCc",
-			"index":0,
+			"id":"n_GM1pd",
+			"index":1,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
 			"skip":false,
-			"title":"Select a trigger event",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"EVENT"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
-		},
-		{
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"_ifZCc-1",
-			"id":"_mPx5f",
-			"index":0,
-			"skip":false,
-			"title":"Select an app and action",
-			"type":"ACTION"
 		}
 	],
 	"ownerUserId":161912,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -59,5 +56,5 @@
 	"tags":[
 		"check12"
 	],
-	"version":0
+	"version":1
 }

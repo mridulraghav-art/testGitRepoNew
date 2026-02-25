@@ -1,0 +1,86 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1721283922540,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		{
+			"fromNodeId":"cHrRF",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"PYsVg",
+			"type":"next"
+		}
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"6698b55236b506197f90f283",
+	"lastModifiedBy":-1,
+	"lcName":"cdw",
+	"modifiedTime":1721679271596,
+	"name":"cdw",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks",
+				"resourceVersion":53,
+				"resourceName":"webhooks_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"C4b64-1",
+			"id":"cHrRF",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				}
+			},
+			"skip":false,
+			"subTitle":"Webhook",
+			"title":"Http Webhook",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":9,
+				"resourceName":"analytics_by_unifyapps_aggregate_metadata",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"C4b64-1",
+			"id":"PYsVg",
+			"index":0,
+			"inputs":{
+				"filterable":true,
+				"entityType":"ENTITY_e_record_ui",
+				"sortable":true,
+				"group":"ENTITY_REPORTING"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Aggregate Metadata",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}

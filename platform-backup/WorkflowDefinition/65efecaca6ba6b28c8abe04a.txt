@@ -1,0 +1,65 @@
+{
+	"createdTime":1710222508013,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"65efecaca6ba6b28c8abe04a",
+	"lastModifiedBy":2,
+	"lcName":"schedule",
+	"modifiedTime":1710308952565,
+	"name":"Schedule",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":1,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"ltx6B-1",
+			"id":"ltx6B",
+			"index":0,
+			"inputs":{
+				"cron":"EXPRESSION",
+				"triggerInputCondition":{
+					"operator":"AND"
+				},
+				"expression":"12 1 * 1 1",
+				"timezone":"GMT",
+				"interval":2,
+				"daysOfWeek":[
+					"WEDNESDAY",
+					"MONDAY"
+				],
+				"frequency":"WEEKS"
+			},
+			"skip":false,
+			"title":"New Recurring Event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":2,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":14
+}

@@ -151,7 +151,7 @@
 	"id":"699ec1a9613277278736f63a",
 	"lastModifiedBy":195379,
 	"lcName":"agent | fetch infra resources virtusa",
-	"modifiedTime":1772013994763,
+	"modifiedTime":1772014012007,
 	"name":"Agent | fetch infra resources virtusa",
 	"nodes":[
 		{
@@ -187,7 +187,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_lUWWR-1",
 			"id":"n_uALFp",
@@ -209,7 +209,7 @@
 				}
 			},
 			"inputs":{
-				"namespace":"=IF(ISBLANK({{ n_GOGHm.outputs.queryParams.namespace }}), \"unifyapps\", {{ n_GOGHm.outputs.queryParams.namespace }})"
+				"namespace":"unifyapps"
 			},
 			"outputSchema":{
 				"dynamic":false,
@@ -4294,5 +4294,5 @@
 	"tags":[
 		
 	],
-	"version":20
+	"version":21
 }

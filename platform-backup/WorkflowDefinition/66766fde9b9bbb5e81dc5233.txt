@@ -1,0 +1,61 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1719037918948,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"66766fde9b9bbb5e81dc5233",
+	"lastModifiedBy":722,
+	"lcName":"untitled",
+	"modifiedTime":1719037977495,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables",
+				"resourceVersion":62,
+				"resourceName":"callables_from_api"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"F5Q6h-1",
+			"id":"F5Q6h",
+			"index":0,
+			"inputs":{
+				"request":{
+					"contentType":"application/json"
+				},
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"",
+							"filter":{
+								"operator":"EQUAL",
+								"value":""
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"Call Automation via API",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":722,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}

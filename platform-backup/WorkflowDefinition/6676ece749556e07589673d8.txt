@@ -1,0 +1,42 @@
+{
+	"appsUsed":[
+		"salesforce"
+	],
+	"createdTime":1719069927937,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"id":"6676ece749556e07589673d8",
+	"lastModifiedBy":174,
+	"lcName":"untitled",
+	"modifiedTime":1719070017826,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"salesforce"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"RGJn3-1",
+			"id":"RGJn3",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":174,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

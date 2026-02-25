@@ -155,7 +155,7 @@
 	"id":"699ec1a9613277278736f63a",
 	"lastModifiedBy":195379,
 	"lcName":"agent | fetch infra resources virtusa",
-	"modifiedTime":1772012308487,
+	"modifiedTime":1772012318701,
 	"name":"Agent | fetch infra resources virtusa",
 	"nodes":[
 		{
@@ -496,7 +496,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"CONTINUE",
 			"groupId":"n_qftLc@_lUWWR-1@1",
 			"id":"n_bWLr0",
@@ -562,7 +562,7 @@
 					"enabled":false
 				}
 			},
-			"skip":false,
+			"skip":true,
 			"subTitle":"Callable",
 			"title":"Call automation",
 			"type":"CALL_WORKFLOW"
@@ -4569,5 +4569,5 @@
 	"tags":[
 		
 	],
-	"version":1
+	"version":2
 }

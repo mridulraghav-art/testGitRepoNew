@@ -1,0 +1,49 @@
+{
+	"createdTime":1709715814080,
+	"deleted":true,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			{
+				"permissions":[
+					"A"
+				],
+				"principalType":"GLOBAL"
+			}
+		]
+	},
+	"id":"65e83166f7982c6d97cc9764",
+	"lastModifiedBy":34,
+	"lcName":"untitled",
+	"modifiedTime":1709715814080,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"bamboohr"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"zMicl-1",
+			"id":"zMicl",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":34,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":0
+}

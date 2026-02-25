@@ -1,6 +1,8 @@
 {
 	"appsUsed":[
-		
+		"sap_odata",
+		"sap_successfactors",
+		"zoom"
 	],
 	"createdTime":1772013715183,
 	"deleted":false,
@@ -9,14 +11,35 @@
 			"fromNodeId":"_WaR0g",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"_k1S15",
+			"toNodeId":"n_L5LsL",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_L5LsL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_6ep2I",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_6ep2I",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_7PiEL",
+			"type":"next"
+		},
+		{
+			"fromNodeId":"n_7PiEL",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_5KXD8",
 			"type":"next"
 		}
 	],
 	"id":"699ec8935a380410867593ad",
 	"lastModifiedBy":3546,
 	"lcName":"rvre",
-	"modifiedTime":1772013715183,
+	"modifiedTime":1772014310578,
 	"name":"rvre",
 	"nodes":[
 		{
@@ -25,7 +48,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"_WaR0g-1",
 			"id":"_WaR0g",
-			"index":0,
+			"index":1,
 			"skip":false,
 			"title":"Select a trigger event",
 			"trigger":{
@@ -34,18 +57,86 @@
 			"type":"START"
 		},
 		{
+			"context":{
+				"appName":"zoom",
+				"resourceVersion":4357,
+				"connectionId":"6986de8957aa2a23fc408680",
+				"resourceName":"zoom_list_cloud_recordings",
+				"type":"APPLICATION"
+			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_WaR0g-1",
-			"id":"_k1S15",
-			"index":0,
+			"id":"n_L5LsL",
+			"index":2,
+			"inputs":{},
 			"skip":false,
-			"title":"Select an app and action",
+			"subTitle":"Zoom",
+			"title":"List cloud recordings",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"zoom",
+				"resourceVersion":6186,
+				"connectionId":"684a7c557cb2af463d327e83",
+				"resourceName":"zoom_download_recording_file",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_WaR0g-1",
+			"id":"n_6ep2I",
+			"index":3,
+			"inputs":{},
+			"skip":false,
+			"subTitle":"Zoom",
+			"title":"Download recording content",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"sap_odata",
+				"resourceVersion":3352,
+				"resourceName":"sap_odata_create_object",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_WaR0g-1",
+			"id":"n_7PiEL",
+			"index":4,
+			"skip":false,
+			"subTitle":"SAP OData",
+			"title":"Create object",
+			"type":"ACTION"
+		},
+		{
+			"context":{
+				"appName":"sap_successfactors",
+				"resourceVersion":4675,
+				"resourceName":"sap_successfactors_add_attachment_leaves",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":true,
+			"fallbackMode":"STOP",
+			"groupId":"_WaR0g-1",
+			"id":"n_5KXD8",
+			"index":5,
+			"skip":false,
+			"subTitle":"SAP SuccessFactors",
+			"title":"Add attachment for leaves",
 			"type":"ACTION"
 		}
 	],
 	"ownerUserId":3546,
+	"schemaReferences":[
+		
+	],
 	"settings":{
 		"enableNodeLevelLogging":true,
 		"enableRunLogging":true,
@@ -59,5 +150,5 @@
 	"tags":[
 		
 	],
-	"version":0
+	"version":1
 }

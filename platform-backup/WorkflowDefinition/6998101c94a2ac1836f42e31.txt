@@ -46,7 +46,7 @@
 	"id":"6998101c94a2ac1836f42e31",
 	"lastModifiedBy":195886,
 	"lcName":"bill.com",
-	"modifiedTime":1772012977200,
+	"modifiedTime":1772013233345,
 	"name":"bill.com",
 	"nodes":[
 		{
@@ -108,7 +108,8 @@
 				"dueDate":"2025-11-29",
 				"vendorCredits":{
 					"items":{
-						"amount":0
+						"amount":0,
+						"id":"vcr01ABC1234567890"
 					},
 					"ua:type":"mappedArray"
 				},
@@ -232,5 +233,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":11
 }

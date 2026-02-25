@@ -1,0 +1,88 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1770967971302,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"n_4Btwr",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"n_PDXWz",
+			"type":"next"
+		}
+	],
+	"id":"698ed3a3c7538b023bac5f65",
+	"lastModifiedBy":196137,
+	"lcName":"testgitreporting",
+	"modifiedTime":1772010252880,
+	"name":"testGitReporting",
+	"nodes":[
+		{
+			"context":{
+				"appName":"schedule",
+				"resourceVersion":877,
+				"resourceName":"schedule_default"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_YbpCo-1",
+			"id":"n_4Btwr",
+			"index":1,
+			"inputs":{
+				"cron":"INTERVAL",
+				"sequential":false,
+				"interval":15,
+				"frequency":"MINUTES"
+			},
+			"skip":false,
+			"subTitle":"Schedule",
+			"title":"New recurring event",
+			"trigger":{
+				"type":"SCHEDULED"
+			},
+			"type":"START"
+		},
+		{
+			"context":{
+				"appName":"analytics_by_unifyapps",
+				"resourceVersion":1386,
+				"resourceName":"analytics_by_unifyapps_execute_query",
+				"type":"APPLICATION"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_YbpCo-1",
+			"id":"n_PDXWz",
+			"index":2,
+			"inputs":{
+				"group":"PLATFORM"
+			},
+			"skip":false,
+			"subTitle":"Analytics by UnifyApps",
+			"title":"Execute Analytics SQL Query",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":196137,
+	"schemaReferences":[
+		
+	],
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":2
+}

@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1772012952251,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_pFjKB",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_ctugj",
+			"type":"next"
+		}
+	],
+	"id":"699ec5985a38041086758874",
+	"lastModifiedBy":161912,
+	"lcName":"hidfg",
+	"modifiedTime":1772012952251,
+	"name":"hidfg",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_pFjKB-1",
+			"id":"_pFjKB",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_pFjKB-1",
+			"id":"_ctugj",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":161912,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}

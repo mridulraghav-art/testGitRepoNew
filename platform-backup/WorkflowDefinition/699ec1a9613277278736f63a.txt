@@ -4,18 +4,18 @@
 	],
 	"createdTime":1772011945846,
 	"deleted":false,
-	"deployedVersion":1,
+	"deployedVersion":2,
 	"deploymentState":{
-		"deployedAt":1772012465871,
+		"deployedAt":1772012742807,
 		"deployedBy":195379,
-		"deployedDefinitionId":"699ec3b1613277278737177c",
+		"deployedDefinitionId":"699ec4c65a380410867583f9",
 		"status":"DEPLOYED",
-		"version":1,
-		"workflowVersion":12
+		"version":2,
+		"workflowVersion":14
 	},
 	"edges":[
 		{
-			"fromNodeId":"n_GOGHm",
+			"fromNodeId":"n_0Tvl9",
 			"priority":0,
 			"skip":false,
 			"toNodeId":"n_uALFp",
@@ -95,20 +95,6 @@
 			"type":"next"
 		},
 		{
-			"fromNodeId":"n_qgAH8",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_iN36d",
-			"type":"next"
-		},
-		{
-			"fromNodeId":"n_9zCsO",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_iN36d",
-			"type":"next"
-		},
-		{
 			"fromNodeId":"n_qftLc",
 			"name":"4",
 			"priority":0,
@@ -122,251 +108,36 @@
 			"skip":false,
 			"toNodeId":"n_MZQEk",
 			"type":"next"
-		},
-		{
-			"fromNodeId":"n_MZQEk",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_tpECj",
-			"type":"next"
-		},
-		{
-			"fromNodeId":"n_qftLc",
-			"name":"default",
-			"priority":0,
-			"skip":false,
-			"toNodeId":"n_CXmpY",
-			"type":"branch"
 		}
 	],
 	"id":"699ec1a9613277278736f63a",
 	"lastModifiedBy":195379,
 	"lcName":"agent | fetch infra resources virtusa",
-	"modifiedTime":1772012740968,
+	"modifiedTime":1772013874218,
 	"name":"Agent | fetch infra resources virtusa",
 	"nodes":[
 		{
 			"context":{
-				"appName":"callables",
-				"resourceVersion":3091,
-				"resourceName":"callables_from_automation"
+				"appName":"webhooks",
+				"resourceVersion":867,
+				"resourceName":"webhooks_default"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_lUWWR-1",
-			"id":"n_GOGHm",
+			"id":"n_0Tvl9",
 			"index":1,
 			"inputs":{
-				"result":{
-					"type":"object",
-					"additionalProperties":false,
-					"properties":{
-						"podDetails":{
-							"type":"object",
-							"properties":{
-								"items":{
-									"type":"array",
-									"items":{
-										"type":"object",
-										"properties":{
-											"cpuStatistics":{
-												"type":"object",
-												"properties":{
-													"99_9thPercentile":{
-														"type":"string",
-														"title":"99_9thPercentile"
-													},
-													"99thPercentile":{
-														"type":"string",
-														"title":"99thPercentile"
-													},
-													"maximumUsage":{
-														"type":"string",
-														"title":"maximumUsage"
-													},
-													"minimumUsage":{
-														"type":"string",
-														"title":"minimumUsage"
-													},
-													"name":{
-														"type":"string",
-														"title":"name"
-													}
-												},
-												"title":"cpuStatistics",
-												"additionalProperties":false
-											},
-											"memoryStatistics":{
-												"type":"object",
-												"properties":{
-													"99_9thPercentile":{
-														"type":"string",
-														"title":"99_9thPercentile"
-													},
-													"99thPercentile":{
-														"type":"string",
-														"title":"99thPercentile"
-													},
-													"maximumUsage":{
-														"type":"string",
-														"title":"maximumUsage"
-													},
-													"minimumUsage":{
-														"type":"string",
-														"title":"minimumUsage"
-													},
-													"name":{
-														"type":"string",
-														"title":"name"
-													}
-												},
-												"title":"memoryStatistics",
-												"additionalProperties":false
-											},
-											"resourceConfig":{
-												"type":"object",
-												"properties":{
-													"limits":{
-														"type":"object",
-														"properties":{
-															"cpu":{
-																"type":"string",
-																"title":"cpu"
-															},
-															"memory":{
-																"type":"string",
-																"title":"memory"
-															}
-														},
-														"title":"limits",
-														"additionalProperties":false
-													},
-													"requests":{
-														"type":"object",
-														"properties":{
-															"cpu":{
-																"type":"string",
-																"title":"cpu"
-															},
-															"memory":{
-																"type":"string",
-																"title":"memory"
-															}
-														},
-														"title":"requests",
-														"additionalProperties":false
-													},
-													"jvmParams":{
-														"type":"object",
-														"properties":{
-															"xms":{
-																"type":"string",
-																"title":"xms"
-															},
-															"xmx":{
-																"type":"string",
-																"title":"xmx"
-															}
-														},
-														"title":"jvmParams",
-														"additionalProperties":false
-													}
-												},
-												"title":"resourceConfig",
-												"additionalProperties":false
-											},
-											"containerName":{
-												"type":"string",
-												"title":"containerName"
-											},
-											"currentReplicas":{
-												"type":"integer",
-												"title":"currentReplicas"
-											},
-											"deploymentName":{
-												"type":"string",
-												"title":"deploymentName"
-											},
-											"nodeType":{
-												"type":"string",
-												"title":"nodeType"
-											}
-										},
-										"additionalProperties":false
-									},
-									"title":"items"
-								}
-							},
-							"title":"podDetails",
-							"additionalProperties":false
-						},
-						"hpaDetails":{
-							"type":"object",
-							"properties":{
-								"hpa":{
-									"type":"array",
-									"items":{
-										"type":"object",
-										"properties":{
-											"currentReplicas":{
-												"type":"integer",
-												"title":"currentReplicas"
-											},
-											"desiredReplicas":{
-												"type":"integer",
-												"title":"desiredReplicas"
-											},
-											"maxPods":{
-												"type":"integer",
-												"title":"maxPods"
-											},
-											"minPods":{
-												"type":"integer",
-												"title":"minPods"
-											},
-											"name":{
-												"type":"string",
-												"title":"name"
-											},
-											"reference":{
-												"type":"string",
-												"title":"reference"
-											},
-											"targets":{
-												"type":"string",
-												"title":"targets"
-											}
-										},
-										"additionalProperties":false
-									},
-									"title":"hpa"
-								}
-							},
-							"title":"hpaDetails",
-							"additionalProperties":false
-						}
-					}
-				},
-				"setup":{
-					"type":"object",
-					"additionalProperties":false,
-					"required":[
-						"namespace"
-					],
-					"properties":{
-						"namespace":{
-							"type":"string",
-							"title":"Namespace"
-						}
-					}
+				"request":{
+					"contentType":"application/json"
 				}
 			},
 			"skip":false,
-			"subTitle":"Callable",
-			"title":"Trigger via automation",
+			"subTitle":"Webhook",
+			"title":"New event",
 			"trigger":{
-				"type":"CALLABLE"
+				"type":"WEBHOOK"
 			},
 			"type":"START"
 		},
@@ -378,7 +149,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"_lUWWR-1",
 			"id":"n_uALFp",
@@ -400,7 +171,7 @@
 				}
 			},
 			"inputs":{
-				"namespace":"=IF(ISBLANK({{ n_GOGHm.outputs.namespace }}), \"unifyapps\", {{ n_GOGHm.outputs.namespace }})"
+				"namespace":"unifyapps"
 			},
 			"outputSchema":{
 				"dynamic":false,
@@ -476,7 +247,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"n_qftLc@_lUWWR-1@2",
 			"id":"n_qftLc@2",
@@ -4003,7 +3774,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"CONTINUE",
 			"groupId":"n_OTIVK@n_qftLc@_lUWWR-1@2@n",
 			"id":"_n80cT",
@@ -4167,68 +3938,6 @@
 		},
 		{
 			"context":{
-				"appName":"callables",
-				"resourceVersion":3129,
-				"resourceName":"callables_return_to_automation",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"n_qftLc@_lUWWR-1@2",
-			"id":"n_iN36d",
-			"index":13,
-			"inputs":{
-				"result":{
-					"podDetails":{
-						"items":{
-							"source":"{{ n_G0zG8.outputs.items }}",
-							"ua:type":"mappedArray",
-							"items":{
-								"cpuStatistics":{
-									"99_9thPercentile":"{{ n_G0zG8.outputs.items[0].cpuStatistics.99_9thPercentile }}",
-									"99thPercentile":"{{ n_G0zG8.outputs.items[0].cpuStatistics.99thPercentile }}",
-									"maximumUsage":"{{ n_G0zG8.outputs.items[0].cpuStatistics.maximumUsage }}",
-									"minimumUsage":"{{ n_G0zG8.outputs.items[0].cpuStatistics.minimumUsage }}",
-									"name":"{{ n_G0zG8.outputs.items[0].cpuStatistics.name }}"
-								},
-								"memoryStatistics":{
-									"99_9thPercentile":"{{ n_G0zG8.outputs.items[0].memoryStatistics.99_9thPercentile }}",
-									"99thPercentile":"{{ n_G0zG8.outputs.items[0].memoryStatistics.99thPercentile }}",
-									"maximumUsage":"{{ n_G0zG8.outputs.items[0].memoryStatistics.maximumUsage }}",
-									"minimumUsage":"{{ n_G0zG8.outputs.items[0].memoryStatistics.minimumUsage }}",
-									"name":"{{ n_G0zG8.outputs.items[0].memoryStatistics.name }}"
-								},
-								"resourceConfig":{
-									"limits":{
-										"cpu":"{{ n_G0zG8.outputs.items[0].resourceConfig.limits.cpu }}",
-										"memory":"{{ n_G0zG8.outputs.items[0].resourceConfig.limits.memory }}"
-									},
-									"requests":{
-										"cpu":"{{ n_G0zG8.outputs.items[0].resourceConfig.requests.cpu }}",
-										"memory":"{{ n_G0zG8.outputs.items[0].resourceConfig.requests.memory }}"
-									},
-									"jvmParams":{
-										"xms":"{{ n_G0zG8.outputs.items[0].resourceConfig.jvmParams.xms }}",
-										"xmx":"{{ n_G0zG8.outputs.items[0].resourceConfig.jvmParams.xmx }}"
-									}
-								},
-								"containerName":"{{ n_G0zG8.outputs.items[0].containerName }}",
-								"currentReplicas":"{{ n_G0zG8.outputs.items[0].currentReplicas }}",
-								"deploymentName":"{{ n_G0zG8.outputs.items[0].deploymentName }}",
-								"nodeType":"{{ n_G0zG8.outputs.items[0].nodeType }}"
-							}
-						}
-					}
-				}
-			},
-			"skip":false,
-			"subTitle":"Callable",
-			"title":"Respond to automation",
-			"type":"STOP"
-		},
-		{
-			"context":{
 				"appName":"branch_condition",
 				"resourceVersion":0,
 				"resourceName":"branch_condition",
@@ -4239,7 +3948,7 @@
 			"fallbackMode":"STOP",
 			"groupId":"n_qftLc@_lUWWR-1@4",
 			"id":"n_qftLc@4",
-			"index":14,
+			"index":13,
 			"inputs":{
 				"name":"HPA"
 			},
@@ -4259,7 +3968,7 @@
 			"fallbackMode":"CONTINUE",
 			"groupId":"n_qftLc@_lUWWR-1@4",
 			"id":"n_MZQEk",
-			"index":15,
+			"index":14,
 			"inputs":{
 				"automationId":"695236a663d839784390741c",
 				"runtimeConnections":{},
@@ -4327,71 +4036,6 @@
 			"subTitle":"Callable",
 			"title":"Call automation",
 			"type":"CALL_WORKFLOW"
-		},
-		{
-			"context":{
-				"appName":"callables",
-				"resourceVersion":3129,
-				"resourceName":"callables_return_to_automation",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"n_qftLc@_lUWWR-1@4",
-			"id":"n_tpECj",
-			"index":16,
-			"inputs":{
-				"result":{
-					"hpaDetails":{
-						"hpa":{
-							"source":"{{ n_MZQEk.outputs.hpa }}",
-							"ua:type":"mappedArray",
-							"items":{
-								"currentReplicas":"{{ n_MZQEk.outputs.hpa[0].currentReplicas }}",
-								"desiredReplicas":"{{ n_MZQEk.outputs.hpa[0].desiredReplicas }}",
-								"maxPods":"{{ n_MZQEk.outputs.hpa[0].maxPods }}",
-								"minPods":"{{ n_MZQEk.outputs.hpa[0].minPods }}",
-								"name":"{{ n_MZQEk.outputs.hpa[0].name }}",
-								"reference":"{{ n_MZQEk.outputs.hpa[0].reference }}",
-								"targets":"{{ n_MZQEk.outputs.hpa[0].targets }}"
-							}
-						}
-					}
-				}
-			},
-			"skip":false,
-			"subTitle":"Callable",
-			"title":"Respond to automation",
-			"type":"STOP"
-		},
-		{
-			"context":{
-				"appName":"callables",
-				"resourceVersion":3129,
-				"resourceName":"callables_return_to_automation",
-				"type":"APPLICATION"
-			},
-			"debug":false,
-			"dirty":false,
-			"fallbackMode":"STOP",
-			"groupId":"n_qftLc@_lUWWR-1@default",
-			"id":"n_CXmpY",
-			"index":17,
-			"inputs":{
-				"result":{
-					"podDetails":{
-						"items":{
-							"source":"null",
-							"ua:type":"mappedArray"
-						}
-					}
-				}
-			},
-			"skip":false,
-			"subTitle":"Callable",
-			"title":"Respond to automation",
-			"type":"STOP"
 		}
 	],
 	"ownerUserId":195379,
@@ -4411,5 +4055,5 @@
 	"tags":[
 		
 	],
-	"version":14
+	"version":15
 }

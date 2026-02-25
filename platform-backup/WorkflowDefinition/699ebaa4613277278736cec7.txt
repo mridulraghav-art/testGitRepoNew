@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1772010148584,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_F0YsY",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_5sSml",
+			"type":"next"
+		}
+	],
+	"id":"699ebaa4613277278736cec7",
+	"lastModifiedBy":196201,
+	"lcName":"knowledge downloader | intercom | conversation",
+	"modifiedTime":1772010148584,
+	"name":"Knowledge Downloader | Intercom | Conversation",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_F0YsY-1",
+			"id":"_F0YsY",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_F0YsY-1",
+			"id":"_5sSml",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":196201,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}

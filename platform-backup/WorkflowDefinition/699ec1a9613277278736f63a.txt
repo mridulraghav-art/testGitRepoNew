@@ -126,14 +126,14 @@
 			"name":"default",
 			"priority":0,
 			"skip":false,
-			"toNodeId":"n_LaxvU",
+			"toNodeId":"n_CXmpY",
 			"type":"branch"
 		}
 	],
 	"id":"699ec1a9613277278736f63a",
 	"lastModifiedBy":195379,
 	"lcName":"agent | fetch infra resources virtusa",
-	"modifiedTime":1772012438741,
+	"modifiedTime":1772012453776,
 	"name":"Agent | fetch infra resources virtusa",
 	"nodes":[
 		{
@@ -4334,17 +4334,21 @@
 		},
 		{
 			"context":{
-				"appName":"stop"
+				"appName":"callables",
+				"resourceVersion":3129,
+				"resourceName":"callables_return_to_automation",
+				"type":"APPLICATION"
 			},
 			"debug":false,
 			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_qftLc@_lUWWR-1@default",
-			"id":"n_LaxvU",
+			"id":"n_CXmpY",
 			"index":17,
+			"inputs":{},
 			"skip":false,
-			"subTitle":"Stop",
-			"title":"Stop",
+			"subTitle":"Callable",
+			"title":"Respond to automation",
 			"type":"STOP"
 		}
 	],
@@ -4365,5 +4369,5 @@
 	"tags":[
 		
 	],
-	"version":10
+	"version":11
 }

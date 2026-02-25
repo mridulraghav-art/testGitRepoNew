@@ -1,0 +1,47 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1720673480524,
+	"deleted":false,
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"668f64c8b22b3b278ec67f0a",
+	"lastModifiedBy":-1,
+	"lcName":"untitled",
+	"modifiedTime":1721679262566,
+	"name":"Untitled",
+	"nodes":[
+		{
+			"context":{
+				"appName":"webhooks"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"g1XmO-1",
+			"id":"g1XmO",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"WEBHOOK"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":17,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":1
+}

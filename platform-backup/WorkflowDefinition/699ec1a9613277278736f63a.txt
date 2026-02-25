@@ -133,7 +133,7 @@
 	"id":"699ec1a9613277278736f63a",
 	"lastModifiedBy":195379,
 	"lcName":"agent | fetch infra resources virtusa",
-	"modifiedTime":1772012453776,
+	"modifiedTime":1772012462868,
 	"name":"Agent | fetch infra resources virtusa",
 	"nodes":[
 		{
@@ -4345,7 +4345,16 @@
 			"groupId":"n_qftLc@_lUWWR-1@default",
 			"id":"n_CXmpY",
 			"index":17,
-			"inputs":{},
+			"inputs":{
+				"result":{
+					"podDetails":{
+						"items":{
+							"source":"null",
+							"ua:type":"mappedArray"
+						}
+					}
+				}
+			},
 			"skip":false,
 			"subTitle":"Callable",
 			"title":"Respond to automation",
@@ -4369,5 +4378,5 @@
 	"tags":[
 		
 	],
-	"version":11
+	"version":12
 }

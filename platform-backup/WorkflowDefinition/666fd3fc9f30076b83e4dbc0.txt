@@ -1,0 +1,43 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1718604796012,
+	"deleted":true,
+	"description":"",
+	"edges":[
+		
+	],
+	"id":"666fd3fc9f30076b83e4dbc0",
+	"lastModifiedBy":626,
+	"lcName":"hvgt",
+	"modifiedTime":1718604870935,
+	"name":"hvgt",
+	"nodes":[
+		{
+			"context":{
+				"appName":"callables"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"tMh9E-1",
+			"id":"tMh9E",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"CALLABLE"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":626,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":2
+}

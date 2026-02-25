@@ -155,7 +155,7 @@
 	"id":"699ec1a9613277278736f63a",
 	"lastModifiedBy":195379,
 	"lcName":"agent | fetch infra resources virtusa",
-	"modifiedTime":1772012318701,
+	"modifiedTime":1772012342447,
 	"name":"Agent | fetch infra resources virtusa",
 	"nodes":[
 		{
@@ -358,6 +358,19 @@
 							},
 							"title":"hpaDetails",
 							"additionalProperties":false
+						}
+					}
+				},
+				"setup":{
+					"type":"object",
+					"additionalProperties":false,
+					"required":[
+						"namespace"
+					],
+					"properties":{
+						"namespace":{
+							"type":"string",
+							"title":"Namespace"
 						}
 					}
 				}
@@ -4569,5 +4582,5 @@
 	"tags":[
 		
 	],
-	"version":2
+	"version":3
 }

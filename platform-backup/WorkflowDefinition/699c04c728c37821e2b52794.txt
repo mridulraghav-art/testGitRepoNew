@@ -60,7 +60,7 @@
 	"id":"699c04c728c37821e2b52794",
 	"lastModifiedBy":195450,
 	"lcName":"test",
-	"modifiedTime":1772022465169,
+	"modifiedTime":1772022461036,
 	"name":"test",
 	"nodes":[
 		{
@@ -468,6 +468,7 @@
 				"entities":{
 					"items":{
 						"object_type":"{{ n_cCf15.outputs.items[0].entityType }}",
+						"version":"ALL",
 						"objectType":"{{ n_XCiQt.outputs.items[0] }}",
 						"entityId":"{{ n_TquyQ.outputs.id }}"
 					},
@@ -522,5 +523,5 @@
 	"tags":[
 		
 	],
-	"version":40
+	"version":39
 }

@@ -4,6 +4,15 @@
 	],
 	"createdTime":1772011945846,
 	"deleted":false,
+	"deployedVersion":1,
+	"deploymentState":{
+		"deployedAt":1772012465871,
+		"deployedBy":195379,
+		"deployedDefinitionId":"699ec3b1613277278737177c",
+		"status":"DEPLOYED",
+		"version":1,
+		"workflowVersion":12
+	},
 	"edges":[
 		{
 			"fromNodeId":"n_GOGHm",
@@ -133,7 +142,7 @@
 	"id":"699ec1a9613277278736f63a",
 	"lastModifiedBy":195379,
 	"lcName":"agent | fetch infra resources virtusa",
-	"modifiedTime":1772012462868,
+	"modifiedTime":1772012619266,
 	"name":"Agent | fetch infra resources virtusa",
 	"nodes":[
 		{
@@ -428,7 +437,19 @@
 					{
 						"id":"2",
 						"inputs":{
-							"name":"pod"
+							"name":"pod",
+							"conditions":{
+								"filters":[
+									{
+										"property":"1",
+										"filter":{
+											"operator":"EQUAL",
+											"value":"1"
+										}
+									}
+								],
+								"operator":"AND"
+							}
 						}
 					},
 					{
@@ -455,13 +476,25 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":false,
+			"dirty":true,
 			"fallbackMode":"STOP",
 			"groupId":"n_qftLc@_lUWWR-1@2",
 			"id":"n_qftLc@2",
 			"index":4,
 			"inputs":{
-				"name":"pod"
+				"name":"pod",
+				"conditions":{
+					"filters":[
+						{
+							"property":"1",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"1"
+							}
+						}
+					],
+					"operator":"AND"
+				}
 			},
 			"skip":false,
 			"title":"",
@@ -4340,7 +4373,7 @@
 				"type":"APPLICATION"
 			},
 			"debug":false,
-			"dirty":true,
+			"dirty":false,
 			"fallbackMode":"STOP",
 			"groupId":"n_qftLc@_lUWWR-1@default",
 			"id":"n_CXmpY",
@@ -4378,5 +4411,5 @@
 	"tags":[
 		
 	],
-	"version":12
+	"version":13
 }

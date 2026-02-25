@@ -1,0 +1,66 @@
+{
+	"appsUsed":[
+		"google_workspace"
+	],
+	"createdTime":1721637976047,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"669e1c5829972229af4a1b50",
+	"lastModifiedBy":-1,
+	"lcName":"e",
+	"modifiedTime":1721679266880,
+	"name":"E",
+	"nodes":[
+		{
+			"context":{
+				"appName":"google_workspace",
+				"resourceVersion":245,
+				"connectionId":"668e518ccaa873275dabc951",
+				"resourceName":"google_workspace_on_updated_user_admin_status"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"0e5p4-1",
+			"id":"0e5p4",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"F",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"F"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"subTitle":"Google Workspace",
+			"title":"Updated user admin status",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}

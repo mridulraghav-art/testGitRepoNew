@@ -1,0 +1,63 @@
+{
+	"appsUsed":[
+		
+	],
+	"createdTime":1772009227905,
+	"deleted":false,
+	"edges":[
+		{
+			"fromNodeId":"_IRySQ",
+			"priority":0,
+			"skip":false,
+			"toNodeId":"_y6kcJ",
+			"type":"next"
+		}
+	],
+	"id":"699eb70b0f48946c3914d131",
+	"lastModifiedBy":196143,
+	"lcName":"google chat",
+	"modifiedTime":1772009227905,
+	"name":"google chat",
+	"nodes":[
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IRySQ-1",
+			"id":"_IRySQ",
+			"index":0,
+			"skip":false,
+			"title":"Select a trigger event",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		},
+		{
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"_IRySQ-1",
+			"id":"_y6kcJ",
+			"index":0,
+			"skip":false,
+			"title":"Select an app and action",
+			"type":"ACTION"
+		}
+	],
+	"ownerUserId":196143,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true,
+		"route":{
+			"default":false,
+			"tierName":"global"
+		}
+	},
+	"standard":false,
+	"tags":[
+		
+	],
+	"version":0
+}

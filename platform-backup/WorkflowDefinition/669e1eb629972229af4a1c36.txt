@@ -1,0 +1,65 @@
+{
+	"appsUsed":[
+		"google_workspace"
+	],
+	"createdTime":1721638582781,
+	"deleted":false,
+	"description":"",
+	"edges":[
+		
+	],
+	"grants":{
+		"configs":[
+			
+		]
+	},
+	"id":"669e1eb629972229af4a1c36",
+	"lastModifiedBy":-1,
+	"lcName":"vv",
+	"modifiedTime":1721679267525,
+	"name":"vv",
+	"nodes":[
+		{
+			"context":{
+				"appName":"google_workspace",
+				"resourceVersion":247,
+				"connectionId":"668e518ccaa873275dabc951",
+				"resourceName":"google_workspace_on_deleted_user"
+			},
+			"debug":false,
+			"dirty":false,
+			"fallbackMode":"STOP",
+			"groupId":"Or0Qk-1",
+			"id":"Or0Qk",
+			"index":0,
+			"inputs":{
+				"triggerInputCondition":{
+					"filters":[
+						{
+							"property":"s",
+							"filter":{
+								"operator":"EQUAL",
+								"value":"s"
+							}
+						}
+					],
+					"operator":"AND"
+				}
+			},
+			"skip":false,
+			"title":"Deleted user",
+			"trigger":{
+				"type":"EVENT"
+			},
+			"type":"START"
+		}
+	],
+	"ownerUserId":520,
+	"settings":{
+		"enableNodeLevelLogging":true,
+		"enableRunLogging":true,
+		"enableVariableLogging":true
+	},
+	"standard":false,
+	"version":3
+}
